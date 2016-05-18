@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="nug-mg-gub">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Color Table View Controller-->
+        <scene sceneID="d0q-N3-scJ">
+            <objects>
+                <tableViewController id="nug-mg-gub" customClass="ColorTableViewController" customModule="CSSColor_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jFP-p1-EgP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="colorCell" id="rtR-Uc-Kef" customClass="ColorTableViewCell" customModule="CSSColor_iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rtR-Uc-Kef" id="4e2-lt-hm1">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8EU-Dz-BaX">
+                                            <rect key="frame" x="19" y="1" width="152" height="41.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="152" id="g4M-UJ-0Y1"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fGO-i8-KZl">
+                                            <rect key="frame" x="179" y="11" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="fGO-i8-KZl" firstAttribute="leading" secondItem="8EU-Dz-BaX" secondAttribute="trailing" constant="8" id="CS1-uz-UXH"/>
+                                        <constraint firstItem="8EU-Dz-BaX" firstAttribute="leading" secondItem="4e2-lt-hm1" secondAttribute="leading" constant="19" id="O7T-RS-Ydo"/>
+                                        <constraint firstItem="8EU-Dz-BaX" firstAttribute="top" secondItem="4e2-lt-hm1" secondAttribute="top" constant="1" id="R4K-Uq-YQh"/>
+                                        <constraint firstItem="fGO-i8-KZl" firstAttribute="centerY" secondItem="4e2-lt-hm1" secondAttribute="centerY" id="jxn-CX-1lE"/>
+                                        <constraint firstAttribute="bottom" secondItem="8EU-Dz-BaX" secondAttribute="bottom" constant="1" id="tNd-xq-rPf"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="colorLabel" destination="fGO-i8-KZl" id="apb-wx-JQW"/>
+                                    <outlet property="colorView" destination="8EU-Dz-BaX" id="XYL-s5-bQa"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nug-mg-gub" id="Yfh-95-E47"/>
+                            <outlet property="delegate" destination="nug-mg-gub" id="Y5p-bM-gCm"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaK-SW-DhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="406"/>
+        </scene>
+    </scenes>
+</document>

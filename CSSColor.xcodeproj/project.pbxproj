@@ -6,20 +6,155 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC0398941CEC6CF900814022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398931CEC6CF900814022 /* AppDelegate.swift */; };
+		CC0398991CEC6CF900814022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0398971CEC6CF900814022 /* Main.storyboard */; };
+		CC03989B1CEC6CF900814022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03989A1CEC6CF900814022 /* Assets.xcassets */; };
+		CC0398AA1CEC6D0800814022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398A91CEC6D0800814022 /* AppDelegate.swift */; };
+		CC0398AC1CEC6D0800814022 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398AB1CEC6D0800814022 /* ColorTableViewController.swift */; };
+		CC0398AE1CEC6D0800814022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0398AD1CEC6D0800814022 /* Assets.xcassets */; };
+		CC0398B11CEC6D0800814022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0398AF1CEC6D0800814022 /* Main.storyboard */; };
+		CC0398B71CEC6E3600814022 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398B61CEC6E3600814022 /* ColorTableViewCell.swift */; };
+		CC0398B91CEC6FCB00814022 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398B81CEC6FCB00814022 /* ColorTableViewController.swift */; };
+		CC0398BB1CEC714300814022 /* CSSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398BA1CEC70BF00814022 /* CSSColor.swift */; };
+		CC0398C11CEC767B00814022 /* ColorTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398C01CEC767B00814022 /* ColorTableCellView.swift */; };
+		CC0398C21CEC78BF00814022 /* CSSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0398BA1CEC70BF00814022 /* CSSColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC0398901CEC6CF900814022 /* CSSColor_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSColor_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0398931CEC6CF900814022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC0398981CEC6CF900814022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC03989A1CEC6CF900814022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC03989F1CEC6CF900814022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0398A71CEC6D0800814022 /* CSSColor_OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSColor_OSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0398A91CEC6D0800814022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC0398AB1CEC6D0800814022 /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		CC0398AD1CEC6D0800814022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC0398B01CEC6D0800814022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC0398B21CEC6D0800814022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0398B61CEC6E3600814022 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		CC0398B81CEC6FCB00814022 /* ColorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		CC0398BA1CEC70BF00814022 /* CSSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSColor.swift; sourceTree = "<group>"; };
+		CC0398C01CEC767B00814022 /* ColorTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorTableCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC03988D1CEC6CF900814022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0398A41CEC6D0800814022 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		CC0398851CEC5BA800814022 = {
 			isa = PBXGroup;
 			children = (
+				CC0398BA1CEC70BF00814022 /* CSSColor.swift */,
+				CC0398921CEC6CF900814022 /* CSSColor_iOS */,
+				CC0398A81CEC6D0800814022 /* CSSColor_OSX */,
+				CC0398911CEC6CF900814022 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		CC0398911CEC6CF900814022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0398901CEC6CF900814022 /* CSSColor_iOS.app */,
+				CC0398A71CEC6D0800814022 /* CSSColor_OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0398921CEC6CF900814022 /* CSSColor_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CC0398931CEC6CF900814022 /* AppDelegate.swift */,
+				CC0398971CEC6CF900814022 /* Main.storyboard */,
+				CC0398B61CEC6E3600814022 /* ColorTableViewCell.swift */,
+				CC0398B81CEC6FCB00814022 /* ColorTableViewController.swift */,
+				CC03989A1CEC6CF900814022 /* Assets.xcassets */,
+				CC03989F1CEC6CF900814022 /* Info.plist */,
+			);
+			path = CSSColor_iOS;
+			sourceTree = "<group>";
+		};
+		CC0398A81CEC6D0800814022 /* CSSColor_OSX */ = {
+			isa = PBXGroup;
+			children = (
+				CC0398C01CEC767B00814022 /* ColorTableCellView.swift */,
+				CC0398A91CEC6D0800814022 /* AppDelegate.swift */,
+				CC0398AB1CEC6D0800814022 /* ColorTableViewController.swift */,
+				CC0398AD1CEC6D0800814022 /* Assets.xcassets */,
+				CC0398AF1CEC6D0800814022 /* Main.storyboard */,
+				CC0398B21CEC6D0800814022 /* Info.plist */,
+			);
+			path = CSSColor_OSX;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC03988F1CEC6CF900814022 /* CSSColor_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0398A01CEC6CF900814022 /* Build configuration list for PBXNativeTarget "CSSColor_iOS" */;
+			buildPhases = (
+				CC03988C1CEC6CF900814022 /* Sources */,
+				CC03988D1CEC6CF900814022 /* Frameworks */,
+				CC03988E1CEC6CF900814022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSSColor_iOS;
+			productName = CSSColor_iOS;
+			productReference = CC0398901CEC6CF900814022 /* CSSColor_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0398A61CEC6D0800814022 /* CSSColor_OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0398B31CEC6D0800814022 /* Build configuration list for PBXNativeTarget "CSSColor_OSX" */;
+			buildPhases = (
+				CC0398A31CEC6D0800814022 /* Sources */,
+				CC0398A41CEC6D0800814022 /* Frameworks */,
+				CC0398A51CEC6D0800814022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSSColor_OSX;
+			productName = CSSColor_OSX;
+			productReference = CC0398A71CEC6D0800814022 /* CSSColor_OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		CC0398861CEC5BA800814022 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					CC03988F1CEC6CF900814022 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CC0398A61CEC6D0800814022 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
 			buildConfigurationList = CC0398891CEC5BA800814022 /* Build configuration list for PBXProject "CSSColor" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +162,83 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CC0398851CEC5BA800814022;
+			productRefGroup = CC0398911CEC6CF900814022 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				CC03988F1CEC6CF900814022 /* CSSColor_iOS */,
+				CC0398A61CEC6D0800814022 /* CSSColor_OSX */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC03988E1CEC6CF900814022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC03989B1CEC6CF900814022 /* Assets.xcassets in Resources */,
+				CC0398991CEC6CF900814022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0398A51CEC6D0800814022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0398AE1CEC6D0800814022 /* Assets.xcassets in Resources */,
+				CC0398B11CEC6D0800814022 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC03988C1CEC6CF900814022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0398BB1CEC714300814022 /* CSSColor.swift in Sources */,
+				CC0398941CEC6CF900814022 /* AppDelegate.swift in Sources */,
+				CC0398B71CEC6E3600814022 /* ColorTableViewCell.swift in Sources */,
+				CC0398B91CEC6FCB00814022 /* ColorTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0398A31CEC6D0800814022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0398AC1CEC6D0800814022 /* ColorTableViewController.swift in Sources */,
+				CC0398C21CEC78BF00814022 /* CSSColor.swift in Sources */,
+				CC0398AA1CEC6D0800814022 /* AppDelegate.swift in Sources */,
+				CC0398C11CEC767B00814022 /* ColorTableCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC0398971CEC6CF900814022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0398981CEC6CF900814022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC0398AF1CEC6D0800814022 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0398B01CEC6D0800814022 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CC03988A1CEC5BA800814022 /* Debug */ = {
@@ -49,6 +253,195 @@
 			};
 			name = Release;
 		};
+		CC0398A11CEC6CF900814022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CSSColor_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.CSSColor-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0398A21CEC6CF900814022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CSSColor_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.CSSColor-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0398B41CEC6D0800814022 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CSSColor_OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.CSSColor-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC0398B51CEC6D0800814022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CSSColor_OSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.electricwoods.CSSColor-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -60,6 +453,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		CC0398A01CEC6CF900814022 /* Build configuration list for PBXNativeTarget "CSSColor_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0398A11CEC6CF900814022 /* Debug */,
+				CC0398A21CEC6CF900814022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC0398B31CEC6D0800814022 /* Build configuration list for PBXNativeTarget "CSSColor_OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0398B41CEC6D0800814022 /* Debug */,
+				CC0398B51CEC6D0800814022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
