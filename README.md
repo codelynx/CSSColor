@@ -25,9 +25,9 @@ let color1 = CSSColor.mintcream
 let color2 = CSSColor.orchid
 ```
 
-### 
+### Caution!!
 
-All color name and RGB values are coded by hand.  So, please let me know if you find errors or possible errors, I will update the color table.  Here is the URL of my reference based on this code.
+All color name and RGB values are coded by hand.  So, please let me know if you find errors or possible errors.  I will update the color table.  Here is the URL of my reference based on this code.
 
 https://note.cman.jp/color/base_color.cgi
 
@@ -185,6 +185,7 @@ darkblue
 navy
 black
 ```
+
 
 ## Sample Codes
 
