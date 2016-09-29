@@ -14,8 +14,8 @@ class ColorTableCellView: NSTableCellView {
 
 	var color: NSColor?
 
-	override func drawRect(dirtyRect: NSRect) {
-		super.drawRect(dirtyRect)
+	override func draw(_ dirtyRect: NSRect) {
+		super.draw(dirtyRect)
 	}
 
 	override func layout() {
@@ -23,7 +23,7 @@ class ColorTableCellView: NSTableCellView {
 
 		self.wantsLayer = true
 		if let color = self.color {
-			self.layer?.backgroundColor = color.CGColor
+			self.layer?.backgroundColor = color.cgColor
 		}
 	}
 	

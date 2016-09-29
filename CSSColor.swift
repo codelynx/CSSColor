@@ -26,8 +26,8 @@ extension String {
 			"A": 0xa, "B": 0xb, "C": 0xc, "D": 0xd, "E": 0xe, "F": 0xf
 		]
 
-		let characters = self.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet()).characters
-		if let character = characters.first where character != "#" {
+		let characters = self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters
+		if let character = characters.first , character != "#" {
 			print("String.hexadecimalColorComponents: expected `#` character but `\(character)`.")
 			return nil
 		}
@@ -36,7 +36,7 @@ extension String {
 		case 7, 9:  // #112233, #112233ff
 			var byte: UInt8 = 0
 			var components = [CGFloat]()
-			for (index, character) in characters.enumerate() {
+			for (index, character) in characters.enumerated() {
 				if index == 0 {
 					if character != "#" { return nil }
 				}
@@ -53,7 +53,7 @@ extension String {
 
 		case 4, 5:	// #123, #123f
 			var components = [CGFloat]()
-			for (index, character) in characters.enumerate() {
+			for (index, character) in characters.enumerated() {
 				if index == 0 {
 					if character != "#" { return nil }
 				}
@@ -92,11 +92,11 @@ public extension XColor {
 }
 
 
-public class CSSColor {
+open class CSSColor {
 
 	// Reference: http://www.w3.org/TR/css3-color/
 
-	private static let table: [String: String] = [
+	fileprivate static let table: [String: String] = [
 		"aliceblue": "#F0F8FF",
 		"antiquewhite": "#FAEBD7",
 		"aqua": "#00FFFF",
@@ -250,7 +250,7 @@ public class CSSColor {
 		return self.table.keys.map { $0 }
 	}
 
-	class func colorNamed(name: String) -> XColor? {
+	class func colorNamed(_ name: String) -> XColor? {
 		if let hexadecimalString = CSSColor.table[name] {
 			return XColor(hexadecimalString: hexadecimalString)
 		}

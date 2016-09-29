@@ -30,22 +30,26 @@ class ColorTableViewController: UITableViewController {
 
 	// MARK: - Table view data source
 
-	override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+	override func numberOfSections(in tableView: UITableView) -> Int {
 		return 1
 	}
 
-	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+	override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		return self.colorNames.count
 	}
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCellWithIdentifier("colorCell", forIndexPath: indexPath) as! ColorTableViewCell
+	var numberOfSectionsInTableView: Int {
+		return 1
+	}
+
+	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCell(withIdentifier: "colorCell", for: indexPath as IndexPath) as! ColorTableViewCell
 		let colorName = self.colorNames[indexPath.row]
 		cell.color = CSSColor.colorNamed(colorName)
 		cell.colorName = colorName
 		return cell
 	}
-
+	
 	/*
 	// Override to support conditional editing of the table view.
 	override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {

@@ -18,27 +18,21 @@ class ColorTableViewController: NSViewController, NSTableViewDelegate, NSTableVi
 
 		// Do any additional setup after loading the view.
 	}
-
-	override var representedObject: AnyObject? {
-		didSet {
-		// Update the view, if already loaded.
-		}
-	}
 	
-	func numberOfRowsInTableView(tableView: NSTableView) -> Int {
+	func numberOfRows(in tableView: NSTableView) -> Int {
 		return colorNames.count
 	}
 	
-	func tableView(tableView: NSTableView, viewForTableColumn tableColumn: NSTableColumn?, row: Int) -> NSView? {
+	func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
 		guard let column = tableColumn?.identifier else { return nil }
 		let colorName = colorNames[row]
 		switch column {
 		case "color":
-			let cellView = tableView.makeViewWithIdentifier("color", owner: nil) as! ColorTableCellView
+			let cellView = tableView.make(withIdentifier: "color", owner: nil) as! ColorTableCellView
 			cellView.color = CSSColor.colorNamed(colorName)!
 			return cellView
 		case "name":
-			let cellView = tableView.makeViewWithIdentifier("name", owner: nil) as! NSTableCellView
+			let cellView = tableView.make(withIdentifier: "name", owner: nil) as! NSTableCellView
 			cellView.textField!.stringValue = colorName
 			return cellView
 		default:
