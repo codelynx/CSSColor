@@ -204,8 +204,9 @@ If you find any errors and mistakes, please feel free to send feedback to Kaz Yo
 
 ## Swift Version
 
-```
-Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)
+```.log
+Xcode Version 8.1 (8B62)
+Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)
 ```
 
 ## License
