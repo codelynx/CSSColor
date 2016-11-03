@@ -1,3 +1,5 @@
+![swift](https://img.shields.io/badge/swift-3.0-orange.svg) ![license](https://img.shields.io/badge/license-MIT-yellow.svg)
+
 # CSSColor
 
 CSSColor is utility code that let's you access CCS3 defined color names.
